@@ -8,5 +8,10 @@ public class Main {
         
         // Write your program here -- consider breaking the program into 
         // multiple classes.
+
+        GradeStatistics gs = new GradeStatistics();
+
+        UserInterface ui = new UserInterface(gs,scanner);
+        ui.start();
     }
 }
