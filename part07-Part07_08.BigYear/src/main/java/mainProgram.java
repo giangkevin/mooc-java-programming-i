@@ -10,6 +10,12 @@ public class mainProgram {
 
         Scanner scan = new Scanner(System.in);
 
+        BirdManager bm = new BirdManager();
+
+        UserInterface ui =  new UserInterface(bm, scan);
+
+        ui.start();
+
     }
 
 }
